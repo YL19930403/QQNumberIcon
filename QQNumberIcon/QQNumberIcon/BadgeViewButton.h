@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BadgeViewButton : UIButton
+@interface BadgeViewButton : UIButton<NSCopying>
+
+@property(nonatomic,strong) NSMutableArray * images ;
 
 @end

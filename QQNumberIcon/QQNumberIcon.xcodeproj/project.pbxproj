@@ -16,6 +16,8 @@
 		29BD23B61C797D2000C51F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BD23B41C797D2000C51F72 /* LaunchScreen.storyboard */; };
 		29BD23C11C797D2000C51F72 /* QQNumberIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BD23C01C797D2000C51F72 /* QQNumberIconTests.m */; };
 		29BD23CC1C797D2000C51F72 /* QQNumberIconUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BD23CB1C797D2000C51F72 /* QQNumberIconUITests.m */; };
+		29BD23DE1C797E0E00C51F72 /* BadgeViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BD23DD1C797E0E00C51F72 /* BadgeViewButton.m */; };
+		29BD23E41C79814500C51F72 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BD23E31C79814500C51F72 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		29BD23C71C797D2000C51F72 /* QQNumberIconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQNumberIconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BD23CB1C797D2000C51F72 /* QQNumberIconUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQNumberIconUITests.m; sourceTree = "<group>"; };
 		29BD23CD1C797D2000C51F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BD23DC1C797E0E00C51F72 /* BadgeViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeViewButton.h; sourceTree = "<group>"; };
+		29BD23DD1C797E0E00C51F72 /* BadgeViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeViewButton.m; sourceTree = "<group>"; };
+		29BD23E21C79814500C51F72 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		29BD23E31C79814500C51F72 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 			children = (
 				29BD23A61C797D2000C51F72 /* AppDelegate.h */,
 				29BD23A71C797D2000C51F72 /* AppDelegate.m */,
+				29BD23E21C79814500C51F72 /* UIView+Extension.h */,
+				29BD23E31C79814500C51F72 /* UIView+Extension.m */,
+				29BD23DC1C797E0E00C51F72 /* BadgeViewButton.h */,
+				29BD23DD1C797E0E00C51F72 /* BadgeViewButton.m */,
 				29BD23A91C797D2000C51F72 /* ViewController.h */,
 				29BD23AA1C797D2000C51F72 /* ViewController.m */,
 				29BD23AC1C797D2000C51F72 /* Main.storyboard */,
@@ -273,9 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29BD23E41C79814500C51F72 /* UIView+Extension.m in Sources */,
 				29BD23AB1C797D2000C51F72 /* ViewController.m in Sources */,
 				29BD23B11C797D2000C51F72 /* QQNumberIcon.xcdatamodeld in Sources */,
 				29BD23A81C797D2000C51F72 /* AppDelegate.m in Sources */,
+				29BD23DE1C797E0E00C51F72 /* BadgeViewButton.m in Sources */,
 				29BD23A51C797D2000C51F72 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,4 +10,14 @@
 
 @interface UIView (Extension)
 
+
+// @property在分类中功能只是帮你生成get,set方法的声明,不会帮你生成get,set方法的实现和下划线成员属性
+@property (nonatomic, assign) CGFloat width;
+
+@property (nonatomic, assign) CGFloat x;
+
+@property (nonatomic, assign) CGFloat y;
+
+@property (nonatomic, assign) CGFloat height;
+
 @end
